@@ -1,0 +1,26 @@
+port: 9955
+build_version: "0.9.0"
+environment: PRODUCTION-STDOUT
+lock_filename: "vuze-tools.lck"
+
+azureus_directory: ""
+azureus_torrents_directory: "torrents"
+azureus_downloads_config: "downloads.config"
+azureus_recover_temp_directory: "azureus-recover"
+azureus_backup_directories:
+
+simple_recovery_workers: 15
+advanced_recovery_max_workers: 50
+
+log:
+  access_log_filepath: log/access
+  access_log_fileextension: .txt
+  access_log_max_size: 5
+  access_log_max_backups: 7
+  access_log_max_age: 30
+  error_log_filepath: log/error
+  error_log_fileextension: .json
+  error_log_max_size: 10
+  error_log_max_backups: 7
+  error_log_max_age: 30
+

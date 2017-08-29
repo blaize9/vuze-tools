@@ -1,0 +1,4 @@
+#Override default config values here
+#azureus_backup_directories:
+# -directory: /path/to/directory/that/contains/backups
+# -directory: /path/to/other/directory/that/contains/backups
